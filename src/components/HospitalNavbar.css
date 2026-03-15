@@ -1,0 +1,131 @@
+.admin-navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:14px 40px;
+background:linear-gradient(90deg,#2aa59c,#2a6fd1);
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* LEFT */
+
+.nav-left{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo-circle{
+width:36px;
+height:36px;
+border-radius:50%;
+background:#6bc6c0;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-weight:bold;
+}
+
+.logo-text{
+font-size:20px;
+font-weight:600;
+}
+
+
+/* CENTER */
+
+.nav-center{
+flex:1;
+display:flex;
+/* justify-content:center; */
+}
+
+
+/* SEARCH BAR */
+
+.search-box{
+display:flex;
+align-items:center;
+background:rgba(255,255,255,0.2);
+padding:6px 12px;
+border-radius:10px;
+width:320px;
+}
+
+.search-box input{
+border:none;
+outline:none;
+background:transparent;
+color:white;
+font-size:14px;
+margin-left:8px;
+width:100%;
+}
+
+.search-box input::placeholder{
+color:#e2e2e2;
+}
+
+.search-icon{
+opacity:0.9;
+}
+
+
+/* RIGHT */
+
+.nav-right{
+display:flex;
+align-items:center;
+gap:18px;
+}
+
+.nav-icon{
+cursor:pointer;
+position:relative;
+}
+
+
+/* NOTIFICATION BADGE */
+
+.badge{
+position:absolute;
+top:-6px;
+right:-6px;
+background:red;
+color:white;
+font-size:10px;
+padding:2px 6px;
+border-radius:50%;
+}
+
+
+/* USER */
+
+.user{
+display:flex;
+align-items:center;
+gap:8px;
+background:rgba(255,255,255,0.15);
+padding:6px 10px;
+border-radius:12px;
+}
+
+.user-info{
+display:flex;
+flex-direction:column;
+}
+
+.user-info span{
+font-size:13px;
+font-weight:600;
+}
+
+.user-info small{
+font-size:11px;
+opacity:0.8;
+}
+

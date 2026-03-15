@@ -1,0 +1,33 @@
+.hospital-header{
+
+background: linear-gradient(90deg,#4f9c96,#3f6fb6);
+
+padding:25px;
+
+border-radius:28px;
+
+margin:30px;
+
+color:white;
+
+}
+
+.hospital-header h1{
+
+font-size:40px;
+
+font-weight:500;
+
+margin:0;
+
+}
+
+.hospital-header p{
+
+margin-top:12px;
+
+font-size:20px;
+
+opacity:0.9;
+
+}
