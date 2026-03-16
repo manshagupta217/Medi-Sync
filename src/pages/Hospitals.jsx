@@ -32,15 +32,12 @@
 
 // export default Hospitals
 
-function Hospitals() {
-
-  return (
-    <div style={{padding:"40px"}}>
-      <h1>Hospital Page Working ✅</h1>
-      <p>If you see this, the Hospitals route is working.</p>
+function Hospitals(){
+  return(
+    <div style={{padding:"30px"}}>
+      <h1>Hospitals Page</h1>
     </div>
   )
-
 }
 
 export default Hospitals
